@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>HDHub4u</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <section id="nav-bar">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                    <span class="fs-4">SHAW'S MODE</span>
+                </a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <input type="text" class="form-control form-control-sm ms-2" placeholder="Search..." aria-label="Search" style="width: 150px;">
+                    </li>
+                </ul>
+            </header>
+        </div>
+    </section>
+    <section id="list">
+        <div class="scroll-container">
+            <ul id="Topics">
+                <li class="Items">
+                    <img src="./Assets/peaky blinders.jpg" alt="Peaky Blinders TV Show">
+                </li>
+                <li class="Items">
+                    <img src="./Assets/extraction.jpg" alt="Extraction Movie Poster">
+                </li>
+                <li class="Items">
+                    <img src="./Assets/umbrella academy.jpeg" alt="Umbrella Academy TV Show">
+                </li>
+                <li class="Items">
+                    <img src="./Assets/You.jpeg" alt="You Webseries"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/vikings.jpeg" alt="Game of Thrones"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/la casa da papel.jpg" alt="Money Heist"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/Naruto.jpeg" alt="Anime"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/Stranger Things.jpeg" alt="Stranger Things"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/The walking dead.jpeg" alt="The Walking Dead"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/solo leveling.jpeg" alt="solo leveling"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/one piece.jpeg" alt="one piece"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/Lucifer.jpeg" alt="Devil"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/Demon slayer.jpg" alt="Demon slayer"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/Annabelle.jpeg" alt="Ghost"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/breaking bad.jpeg" alt="Breaking bad"/>
+                </li>
+                <li class="Items">
+                    <img src="./Assets/blue lock.jpg" alt="Blue Lock"/>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="main-list">
+        <ul class="listing">
+            <li><div class="dropdown">
+                <button class="dropbtn">Genre</button>
+                <div class="dropdown-content">
+                  <a href="#">Action</a>
+                  <a href="#">Horror</a>
+                  <a href="#">Comedy</a>
+                  <a href="#">Thriller</a>
+                  <a href="#">Dubbed</a>
+                  <a href="#">Sci-Fi</a>
+                  <a href="#">Adventure</a>
+                  <a href="#">Anime</a>
+                </div>
+              </div></li>
+              <li>
+                <div class="dropdown">
+                    <button id="language" class="dropbtn">Language</button>
+                    <div class="dropdown-content">
+                      <a href="#">Hindi</a>
+                      <a href="#">Urdu</a>
+                      <a href="#">Korean</a>
+                      <a href="#">Chinese</a>
+                      <a href="#">Finninsh</a>
+                      <a href="#">Japanese</a>
+                      <a href="#">Irish</a>
+                      <a href="#">German</a>
+                    </div>
+                  </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                    <button id="year" class="dropbtn">Year</button>
+                    <div class="dropdown-content">
+                      <a href="#">2024</a>
+                      <a href="#">2023</a>
+                      <a href="#">2022</a>
+                      <a href="#">2021</a>
+                      <a href="#">2020</a>
+                      <a href="#">2019</a>
+                      <a href="#">2018</a>
+                      <a href="#">2017</a>
+                      <a href="#">2016</a>
+                    </div>
+                  </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                    <button id="ott" class="dropbtn">OTT</button>
+                    <div class="dropdown-content">
+                      <a href="#">Hulu</a>
+                      <a href="#">Amazon Prime</a>
+                      <a href="#">Netflix</a>
+                      <a href="#">HBO</a>
+                      <a href="#">Apple TV+</a>
+                      <a href="#">Peacock</a>
+                      <a href="#">CBC</a>
+                      <a href="#">BBC</a>
+                      <a href="#">HBO plus+</a>
+                    </div>
+                  </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                    <button id="movies" class="dropbtn">Movies</button>
+                    <div class="dropdown-content">
+                      <a href="#">Latest</a>
+                      <a href="#">Dubbed</a>
+                      <a href="#">Fan Dubbed</a>
+                      <a href="#">Multi-Audio</a>
+                      <a href="#">IMDb</a>
+                      <a href="#">Dual-Audio</a>
+                    </div>
+                  </div>
+              </li>
+        </ul>
+    </section>
+    <section id="cards-mov">
+        <ul class="card-container">
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/The boys.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">The Boys</h5>
+                        <p class="card-text">Download The Boys (2024) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Narcos.jpg" class="card-img-top" alt="Borderlands Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Narcos</h5>
+                        <p class="card-text">Download Narcos (2020) Dual Audio [Hindi-English] WEB-DL </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/House of Cards.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjE5NzE5Ni53ZWJw" class="card-img-top" alt="Alien Romulus Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">House Of Cards</h5>
+                        <p class="card-text">Download House Of Cards (2018) [English With Subtitles] WEB-DL </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/YOU.jpg" class="card-img-top" alt="Alien Romulus Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">YOU</h5>
+                        <p class="card-text">Download YOU (2020) [English With Subtitles] WEB-DL </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Dexter.png" class="card-img-top" alt="Alien Romulus Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Dexter</h5>
+                        <p class="card-text">Download Dexter (2015) WEB-DL </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="card-container">
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Vikings.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Vikings</h5>
+                        <p class="card-text">Download Vikings (2024) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/From.webp" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">From</h5>
+                        <p class="card-text">Download From Web-Series (2024) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Mandalorian.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Mandalorian</h5>
+                        <p class="card-text">Download Mandalorian (2020) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Fight Club.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Fight Club</h5>
+                        <p class="card-text">Download Fight Club (1999) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Dark Knight.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Dark Knight</h5>
+                        <p class="card-text">Download Dark Knight (2012) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="card-container">
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Annabelle.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Annabelle</h5>
+                        <p class="card-text">Download Annabelle (2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Intrasteller.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Intrasteller</h5>
+                        <p class="card-text">Download Intrasteller (2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Joker.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Joker</h5>
+                        <p class="card-text">Download joker (2016) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Alice in Boderland.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Alice in Boderland</h5>
+                        <p class="card-text">Download Alice in Boderland (2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Game of THornes.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Game of Thrones</h5>
+                        <p class="card-text">Download Game of Thrones (2015) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="card-container">
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Avengers Endgame.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Avengers : Endgame</h5>
+                        <p class="card-text">Download Avengers Endgame (2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Avengers Infinity.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Avengers : Infinity</h5>
+                        <p class="card-text">Download Avengers Infinity (2016) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Avengers Age of Ultro.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Avengers : Age of Ultron</h5>
+                        <p class="card-text">Download Avengers Age of Ultron (2015) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Avengers 2012.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">The Avengers</h5>
+                        <p class="card-text">Download The Avengers (2012) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Cptain America.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Captain America</h5>
+                        <p class="card-text">Download Captain America : The First Avenger(2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="card-container">
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Elite.jpeg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Elite</h5>
+                        <p class="card-text">Download Elite (2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Sopranos.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Sopranos</h5>
+                        <p class="card-text">Download Sopranos (2011) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Mr Robot.jpg" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Mr Robot</h5>
+                        <p class="card-text">Download Mr Robot (2020) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Dark.avif" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Dark</h5>
+                        <p class="card-text">Download Dark (2018) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+            <li id="cards-di-list">
+                <div class="card" style="width: 200px; height: 380px;">
+                    <img src="./Card Images/Stranger THings.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNGM0MTVmNDQtZjE3Yi00NmY5LWE4YmMtMWE2N2I5ZGU2MDUwLmpwZw==" class="card-img-top" alt="Miller's Girl Poster">
+                    <div class="card-body">
+                        <h5 id="Tatle" class="card-title">Stranger Things</h5>
+                        <p class="card-text">Download Stranger Things (2021) Dual Audio [Hindi-English] BluRay </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-sections">
+            <div class="footer-column">
+              <h4>About Us</h4>
+              <p>SHAW'S MODE is your go-to platform for streaming and downloading the latest movies and TV shows with ease. Stay entertained, always!</p>
+            </div>
+      
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <ul class="quick-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-column">
+              <h4>Contact Us</h4>
+              <p>Email: Shawai8009@gmail.com</p>
+              <p>Phone: +92 3144886150</p>
+            </div>
+      
+            <div class="footer-column">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#"><img src="./SVG icons/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./SVG icons/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="./SVG icons/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./SVG icons/youtube.png" alt="YouTube"></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p>&copy; 2024 SHAW'S MODE. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
+    
+    
+</body>
+</html>
